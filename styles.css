@@ -299,7 +299,7 @@ main h2::after {
 /* Ajuste para imágenes de productos */
 .card .img {
   width: 100%;
-  height: 160px;
+  height: 170px;
   background-color: #f0f0f0;
   display: flex;
   align-items: center;
