@@ -365,18 +365,18 @@ main h2::after {
   .card {
     padding: 0.5rem;
     width: 140px;       /* más compacto en móviles */
-    min-height: 200px;  /* altura base más baja en móvil */
+    min-height: 180px;  /* altura base más baja en móvil */
   }
   .card .img {
     height: 120px;
     margin-bottom: 0.4rem; /* reduce espacio entre imagen y texto */
   }
   .card .body h3 {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     margin-top: 0.2rem; /* ajusta separación superior */
   }
   .card .body p {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     margin: 0.2rem 0;   /* reduce separación vertical */
   }
   .btn {
