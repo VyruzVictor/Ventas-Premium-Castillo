@@ -377,10 +377,10 @@ main h2::after {
   }
   .card .body p {
     font-size: 0.7rem;
-    margin: 0.2rem 0;   /* reduce separación vertical */
+    margin: 0.02rem 0;   /* reduce separación vertical */
   }
   .btn {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     padding: 0.3rem 0.6rem;
   }
 }
