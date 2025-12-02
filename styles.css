@@ -175,7 +175,7 @@ main h2::after {
   box-shadow: 0 4px 8px rgba(255, 111, 97, 0.2);
   text-align: center;
   width: 200px;        /* ancho fijo */
-  min-height: 280px;   /* altura base uniforme */
+  min-height: 300px;   /* altura base uniforme */
   display: flex;
   flex-direction: column;
   justify-content: space-between; /* distribuye imagen y texto */
