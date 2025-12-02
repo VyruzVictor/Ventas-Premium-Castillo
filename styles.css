@@ -282,6 +282,21 @@ main h2::after {
   margin-top: 4px;
   cursor: pointer;
 }
+.card .img-carousel a {
+  flex-shrink: 0;             /* evita que se compriman */
+  scroll-snap-align: center;  /* cada imagen se centra al deslizar */
+  width: 100%;
+  height: 160px;
+  display: flex;              /* asegura que la imagen ocupe el espacio */
+  justify-content: center;
+  align-items: center;
+}
+.card .img-carousel a img {
+  width: 100%;
+  height: 160px;
+  object-fit: contain;        /* mantiene proporción */
+  border-radius: 6px;
+}
 
 /* ===== Tarjetas informativas del index ===== */
 .card-info {
