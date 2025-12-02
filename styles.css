@@ -365,7 +365,7 @@ main h2::after {
   .card {
     padding: 0.5rem;
     width: 140px;       /* más compacto en móviles */
-    min-height: 220px;  /* altura base más baja en móvil */
+    min-height: 200px;  /* altura base más baja en móvil */
   }
   .card .img {
     height: 120px;
