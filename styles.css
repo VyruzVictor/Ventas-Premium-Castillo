@@ -376,11 +376,11 @@ main h2::after {
     margin-top: 0.2rem; /* ajusta separación superior */
   }
   .card .body p {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     margin: 0.02rem 0;   /* reduce separación vertical */
   }
   .btn {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     padding: 0.3rem 0.6rem;
   }
 }
