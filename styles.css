@@ -174,7 +174,7 @@ main h2::after {
   padding: 0.8rem;
   box-shadow: 0 4px 8px rgba(255, 111, 97, 0.2);
   text-align: center;
-  width: 200px;        /* ancho fijo */
+  width: 180px;        /* ancho fijo */
   min-height: 300px;   /* altura base uniforme */
   display: flex;
   flex-direction: column;
