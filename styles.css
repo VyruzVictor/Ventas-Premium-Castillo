@@ -240,7 +240,7 @@ main h2::after {
   scroll-snap-align: center;  /* cada imagen se centra al deslizar */
 }
 
-/* Estilo del lightbox */
+/* ===== Lightbox para imágenes de productos ===== */
 .lightbox {
   display: none;              /* Oculto por defecto */
   position: fixed;
@@ -258,19 +258,21 @@ main h2::after {
   max-height: 80%;
   margin: auto;
   border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
 }
 /* Cuando el lightbox está activo */
 .lightbox:target {
   display: block;
 }
 /* Botón de cerrar */
-.close {
+.lightbox .close {
   position: absolute;
   top: 20px;
   right: 35px;
   color: #fff;
   font-size: 40px;
   text-decoration: none;
+  font-weight: bold;
 }
 
 /* ===== Tarjetas informativas del index ===== */
