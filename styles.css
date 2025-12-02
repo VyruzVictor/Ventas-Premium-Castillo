@@ -221,7 +221,7 @@ main h2::after {
 /* Carrusel dentro de la tarjeta */
 .card .img-carousel {
   width: 100%;
-  height: 160px;              /* misma altura que .card .img */
+  height: 170px;              /* misma altura que .card .img */
   background-color: #f0f0f0;  /* igual que tus imágenes */
   border-radius: 6px;
   overflow-x: auto;           /* scroll horizontal */
