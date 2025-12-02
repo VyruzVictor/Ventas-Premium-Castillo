@@ -230,10 +230,10 @@ main h2::after {
 }
 .card .img-carousel .slides {
   display: flex;
-  width: 120%;
+  width: 100%;
 }
 .card .img-carousel img {
-  width: 120%;
+  width: 100%;
   height: 160px;              /* igual que .card .img */
   object-fit: contain;        /* mantiene proporción */
   flex-shrink: 0;             /* evita que se compriman */
