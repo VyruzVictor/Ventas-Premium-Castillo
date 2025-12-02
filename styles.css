@@ -372,7 +372,7 @@ main h2::after {
     margin-bottom: 0.4rem; /* reduce espacio entre imagen y texto */
   }
   .card .body h3 {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     margin-top: 0.2rem; /* ajusta separación superior */
   }
   .card .body p {
