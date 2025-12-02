@@ -220,8 +220,8 @@ main h2::after {
 }
 /* Carrusel dentro de la tarjeta */
 .card .img-carousel {
-  width: 110%;
-  height: 170px;              /* misma altura que .card .img */
+  width: 120%;
+  height: 160px;              /* misma altura que .card .img */
   background-color: #f0f0f0;  /* igual que tus imágenes */
   border-radius: 6px;
   overflow-x: auto;           /* scroll horizontal */
@@ -230,10 +230,10 @@ main h2::after {
 }
 .card .img-carousel .slides {
   display: flex;
-  width: 110%;
+  width: 120%;
 }
 .card .img-carousel img {
-  width: 110%;
+  width: 120%;
   height: 160px;              /* igual que .card .img */
   object-fit: contain;        /* mantiene proporción */
   flex-shrink: 0;             /* evita que se compriman */
