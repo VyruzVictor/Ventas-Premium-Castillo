@@ -274,6 +274,14 @@ main h2::after {
   text-decoration: none;
   font-weight: bold;
 }
+.view-link {
+  display: block;
+  font-size: 0.8rem;
+  color: #FF6F61;
+  text-decoration: underline;
+  margin-top: 4px;
+  cursor: pointer;
+}
 
 /* ===== Tarjetas informativas del index ===== */
 .card-info {
