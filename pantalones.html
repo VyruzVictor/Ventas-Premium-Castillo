@@ -35,21 +35,31 @@
 
     <section class="grid">
       <!-- Producto 1 -->
-       <article class="card">
-  <div class="img-carousel">
-    <div class="slides">
-      <img src="images/pantalon001-a.jpg" alt="N/A">
-    </div>
-  </div>
-  <div class="body">
-    <h3>Proximamente</h3> <!-- Nombre del Producto -->
-    <p><strong>Codigo:</strong> PA-001</p> <!-- Codigo unico del Producto -->
-    <p>N/A.</p> <!-- Informacion del Producto -->
-    <div class="price-row">
-      <span class="price"><strong>Q0.00</strong></span> <!-- Precio del Producto -->
-    </div>
-  </div>
-</article>
+       <article class="card" id="prod1">
+        <div class="img-carousel">
+          <div class="slides">
+            <a href="#pa001-a"><img src="images/pantalon001-a.jpg" alt="imagen1"></a>
+            <a href="#pa001-b"><img src="images/pantalon001-b.jpg" alt="imagen2"></a>
+          </div>
+        </div>
+        <div class="body">
+          <h3>N/A</h3> <!-- Nombre del Producto -->
+          <p><strong>Codigo:</strong> PA-001</p> <!-- Codigo unico del Producto -->
+          <p>N/A.</p> <!-- Informacion del Producto -->
+          <div class="price-row">
+            <span class="price"><strong>Q0.00</strong></span> <!-- Precio del Producto -->
+          </div>
+        </div>
+      </article>
+      <!-- Lightbox Producto 1 -->
+      <div class="lightbox" id="pa001-a">
+        <a href="#prod1" class="close">&times;</a>
+        <img src="images/pantalon001-a.jpg" alt="imagen1 grande">
+      </div>
+      <div class="lightbox" id="pa001-b">
+        <a href="#prod1" class="close">&times;</a>
+        <img src="images/pantalon001-b.jpg" alt="imagen2 grande">
+      </div>
 
       <!-- Producto 2 -->
       <article class="card">
@@ -115,6 +125,8 @@
     </div>
   </div>
 </article>
+
+
     </section>
   </main>
 
